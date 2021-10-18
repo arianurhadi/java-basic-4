@@ -1,6 +1,14 @@
-public class JavaBasic4Challange {
+import java.util.Scanner;
+
+public class JavaBasic4Challange {    
     public static void main(String[] args){
-        konversiNilai(90);
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukan Nilai : ");
+
+        int nilai = scanner.nextInt();
+
+        konversiNilai(nilai);
     }
 
     static void konversiNilai(int nilai){
